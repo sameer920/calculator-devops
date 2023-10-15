@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: default
+  vmImage: selfhosted-k200439
 
 steps:
 - task: NodeTool@0
